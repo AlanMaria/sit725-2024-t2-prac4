@@ -1,0 +1,119 @@
+body {
+    background-image: url("/images/dog-background.jpg"); /* Adjusted path for background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Ensure the dog image is rounded and does not grow beyond its original size */
+.profile-img {
+    max-width: 400px; /* Adjust as needed to set the maximum width */
+    width: 100%; /* Allows the image to scale down if necessary */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image round */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    object-fit: cover; /* Ensure the image is covered correctly without stretching */
+}
+
+/* Additional styles to align the cards */
+.card {
+    margin: 20px 0;
+}
+
+/* Ensure form fields in the adopt section have consistent styling */
+.input-field input,
+.input-field textarea {
+    background-color: #ffffff; /* Make sure input fields are readable */
+    color: #000000;
+}
+
+/* Ensure footer styling */
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 0;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Styling for the text and images in the testimonial section */
+#testimonial {
+    padding: 40px 0;
+}
+
+#testimonial .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Styling for the cards */
+.card {
+    margin: 20px 0;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* Review card styles */
+.review-card {
+    background-color: #ffeeee;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: calc(33.333% - 20px); /* Fit 3 reviews horizontally with margins */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    float: left;
+}
+
+.review-card .review-name {
+    font-weight: bold;
+    color: #000; /* Black color for the name */
+}
+
+.review-card .review-text {
+    margin-top: 5px;
+    color: #000; /* Black color for the review text */
+}
+
+/* Ensure review form textarea color is consistent */
+.materialize-textarea {
+    background-color: #ffffff; /* Background color for the textarea */
+    color: #000000; /* Text color for the textarea */
+}
+/* Add styles for the star ratings */
+/* Default style for all stars */
+.star-icon {
+    font-size: 20px;  /* Size of the stars */
+    margin-right: 2px;  /* Spacing between stars */
+}
+
+/* Filled stars color */
+.star-icon.filled {
+    color: #FFD700;  /* Gold color for filled stars */
+}
+
+/* Empty stars color */
+.star-icon.empty {
+    color: #CCCCCC;  /* Light gray color for empty stars */
+}
